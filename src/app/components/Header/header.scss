@@ -1,0 +1,40 @@
+$gray: #D7DDE9;
+$dark: #0000008A;
+
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 120px;
+  padding: 16px 0;
+  border-bottom: 1px solid $gray;
+
+  span{
+    font-size: 16px;
+    margin-top: 4px;
+  }
+
+  span.welcome{
+    font-weight: 500;
+  }
+
+  span.date{
+    color: $dark;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 600px){
+  header{
+    flex-direction: row;
+    align-items: center;
+
+    span{
+      margin-left: auto;
+    }
+
+    span.welcome{
+      font-size: 24px;
+    }
+  }
+}
