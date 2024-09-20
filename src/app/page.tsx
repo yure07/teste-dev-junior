@@ -1,11 +1,12 @@
-import './home.scss'
+import './page.scss'
 import { Header } from './components/Header';
+import { BoardTasks } from './components/BoardTasks';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Header/>
-      
-    </div>
+      <BoardTasks/>
+    </>
   );
 }
