@@ -60,3 +60,10 @@ div.task{
     color: $black-text;
   }
 }
+
+@media (min-width: 768px){
+  section{
+    margin: 20px auto;
+    width: 450px;
+  }
+}
